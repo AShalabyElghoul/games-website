@@ -1,0 +1,132 @@
+/* navbar */
+.layout {
+    background-image: url(wraper.png);
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.topp {
+    background-color: rgb(39, 43, 48);
+    height: 40%;
+}
+
+a {
+    padding: 10;
+    color: red;
+}
+
+.test {
+    border-radius: 20px;
+    top: -10%;
+    left: 13%;
+}
+
+.logo {
+    font-family: "Nerko One", cursive;
+}
+.navbar-nav a{
+    cursor: pointer;
+}
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 75%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+} */
+.det h2{
+    color: white;
+    font-family: "Nerko One", cursive;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card{
+    /* border:2px solid black; */
+/* padding: 10; */
+transition: 0.7s;
+}
+.card:hover{
+transform: scale(1.1,1.1);
+overflow: hidden;
+}
+.card img{
+    border-radius: 5px;
+    filter: grayscale(60%);
+    transition: 0.7s;
+}
+.card:hover img{
+    filter: grayscale(0%);
+}
+.card p{
+    font-family: "Comfortaa", cursive;
+    font-size: 14px;
+    color: #929496;
+    font-weight: 500;
+    text-align: center;
+}
+.btn-primary{
+    background-color: rgb(58, 73, 123);
+    border:none
+}
+.categ p{
+    background-color: #32383E;
+    padding: 5 5;
+    border-radius: 7px;
+    color: white;
+    font-size: 10.5px;
+}
+#details{
+    background-color: #27282B;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+    display: none;
+    color: white;
+    height: 100%;
+}
+.fa-xmark{
+    background-color: transparent;
+    font-size: 40;
+    color:grey;
+}
+.fa-xmark:hover{
+    color:rgb(181, 181, 181);
+}
+.tes{
+    padding-top: 50;
+    margin-top: 30;
+}
+.tes h3{
+    font-size: 16px;
+    color: white;
+}
+.tes span{
+    background-color: #0DCAF0;
+    border-radius: 5px;
+    color: black;
+    font-size: 14;
+    padding: 0 5;
+}
+.tes a{
+    color: white;
+    text-decoration: none;
+}
+#loading{
+    background-color: black;
+    /* opacity: 0.5; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999999999999999999999999;
+}
